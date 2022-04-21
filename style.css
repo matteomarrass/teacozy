@@ -1,0 +1,126 @@
+body {
+    background-color: black;
+    opacity: 0.9;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    text-align: center;
+}
+/*Navigation Bar*/
+
+#logo {
+    height: 50px;
+    width: auto;
+    margin-left: 10px;
+}
+
+ul.buttons {
+    display: inline-flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.buttons > li {
+    list-style: none;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    height: 69px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: black;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+/*Central Image With Slogan*/
+
+section.slogan-image {
+    background-image: url("img/img-mission-background.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.slogan {
+    background-color: black;
+    justify-content: center;
+    margin: 0 auto;
+    width: 1200px;
+}
+h2, h4 {
+    text-align: center;
+    font-weight: bold;
+}
+
+/*Tea Of The Month section */
+
+.tea-month-types {
+    max-width: 1000px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.type-tea > img {
+    height: 200px;
+    width: 300px;
+    margin: 0 15px;
+}
+
+p {
+    margin-top: 10px;
+}
+
+/* Locations */
+
+.locationlist > h2 {
+}
+
+.locationlist {
+    background-image: url("img/img-locations-background.webp");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px;
+}
+
+.locationbox {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.location {
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+    margin-top: 15px;
+    margin: 15px 40px auto 40px;
+}
+
+/* Contact Section */
+
+.contact {
+    max-height: 200px;
+}
+
+/* Footer */
+
+#copyright {
+    text-align: left;
+    margin-left: 20px;
+}
